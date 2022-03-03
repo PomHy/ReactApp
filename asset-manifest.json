@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/PomHy/ReactApp/static/css/main.e6c13ad2.css",
-    "main.js": "/PomHy/ReactApp/static/js/main.62da0309.js",
+    "main.css": "/PomHy/ReactApp/static/css/main.44124a2e.css",
+    "main.js": "/PomHy/ReactApp/static/js/main.72aafa7a.js",
     "static/js/787.1daa3f2c.chunk.js": "/PomHy/ReactApp/static/js/787.1daa3f2c.chunk.js",
+    "static/media/Bild.jpg": "/PomHy/ReactApp/static/media/Bild.4cd5dd816e837edafe8d.jpg",
     "index.html": "/PomHy/ReactApp/index.html",
-    "main.e6c13ad2.css.map": "/PomHy/ReactApp/static/css/main.e6c13ad2.css.map",
-    "main.62da0309.js.map": "/PomHy/ReactApp/static/js/main.62da0309.js.map",
+    "main.44124a2e.css.map": "/PomHy/ReactApp/static/css/main.44124a2e.css.map",
+    "main.72aafa7a.js.map": "/PomHy/ReactApp/static/js/main.72aafa7a.js.map",
     "787.1daa3f2c.chunk.js.map": "/PomHy/ReactApp/static/js/787.1daa3f2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.62da0309.js"
+    "static/css/main.44124a2e.css",
+    "static/js/main.72aafa7a.js"
   ]
 }
