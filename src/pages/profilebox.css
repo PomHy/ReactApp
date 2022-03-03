@@ -1,0 +1,73 @@
+.box {  
+    width: 100px;  
+    margin: 0 auto;
+    background: url("https://cdn.pixabay.com/photo/2022/01/05/17/48/blackandwhite-6917668_960_720.jpg") no-repeat;
+    padding: 80px;  
+    background-clip: padding-box;
+    text-align: center; 
+  }
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: rgb(2, 2, 2);
+    border: 2px solid #000000;
+    border-radius: 20px/40px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 3s ease-in-out;
+  }
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  .hideButton{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: rgb(202, 72, 72);
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
